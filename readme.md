@@ -42,11 +42,17 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 1. Kontrolky (a případný displej) na řídící jednotce nesvítí.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Ověřte, zda je připojeno napájení.
+    > :bulb: **Tip:** Zkontrolujte napájení.
 
 2. Kontrolky na řídící jednotce svítí (a případný displej ukazuje stav RUN), ale není žádná odezva na stisknutí ovládacích tlačítek.
+    - Navrhovaný postup:
+    - Použité diagnostické prostředky:
+    > :bulb: **Tip:** ....
 
-3. Vše vypadá funkční, pouze jedna kontrolka nesvítí, i když podle popisu funkce zařízení, by svítit měla/blikat.
+3. Vše vypadá funkční, pouze podle popisu funkce zařízení, jedna kontrolka zjevně nesvítí.
+    - Navrhovaný postup:
+    - Použité diagnostické prostředky:
+    > :bulb: **Tip:** Zkontrolujte přívodní vodiče. ||text||
 
 4. Zařízení nepracuje podle popisu.
 
