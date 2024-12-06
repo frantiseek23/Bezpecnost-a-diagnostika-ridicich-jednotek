@@ -52,7 +52,7 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 3. Vše vypadá funkční, pouze podle popisu funkce zařízení, jedna kontrolka zjevně nesvítí.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Zkontrolujte přívodní vodiče. ||text||
+    > :bulb: **Tip:** Zkontrolujte přívodní vodiče. || text ||
 
 4. Zařízení nepracuje podle popisu.
 
