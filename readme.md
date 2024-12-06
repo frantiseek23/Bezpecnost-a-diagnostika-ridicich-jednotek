@@ -40,6 +40,9 @@ Bezpečnost a diagnostika řídících jednotek
 V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. Nezapomeňte popsat i jaké diagnostické prostředky k tomu potřebujete, případně jak je nastavíte.
 
 1. Kontrolky (a případný displej) na řídící jednotce nesvítí.
+    - Navrhovaný postup:
+    - Použité diagnostické prostředky:
+    > :bulb: **Tip:** Ověřte, zda je připojeno napájení.
 
 2. Kontrolky na řídící jednotce svítí (a případný displej ukazuje stav RUN), ale není žádná odezva na stisknutí ovládacích tlačítek.
 
@@ -47,5 +50,8 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 
 4. Zařízení nepracuje podle popisu.
 
+5. 
 
 
+
+6. Rozdělte se na dva týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
