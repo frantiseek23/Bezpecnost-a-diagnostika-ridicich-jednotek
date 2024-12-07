@@ -107,7 +107,8 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 </details>
 
 
+> :key: **Keywords:**
 <details>
-  <summary>  > :key: **Keywords:** Simulátor</summary>
+  <summary>Simulátor</summary>
   Význam slova.
 </details>
