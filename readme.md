@@ -98,17 +98,23 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 </details>
 
 
+
+
+
 <details>
-  <summary>Spoiler warning 2</summary>
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  ```javascript
-  console.log("I'm a code block!");
-  ```
+  
+  <summary> Simulátor</summary>
+
+  Význam slova.
+
 </details>
 
 
-> :key: **Keywords:**
+
 <details>
-  <summary>Simulátor</summary>
+  
+  <summary> > :key: **Keywords:** Simulátor</summary>
+
   Význam slova.
+
 </details>
