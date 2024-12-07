@@ -25,21 +25,30 @@ Bezpečnost a diagnostika řídících jednotek
 
 ## Úlohy
 
-> :key: **Keywords:** Safety = 
-> :key: **Keywords:** Security = 
-
-
-<!--
 ### 1. Safety
 
-1. aaaa
-    - aaa
+1. Při zapojování některé z úloh sepište, jaká bezpečnostní opatření jste museli dodržovat.
+
+> :bulb: **Tip:** Zaměřte se na bezpečnost práce v elektrotechnice.
+
+2. Zkuste vyhledat alespoň dvě normy/zákony, zabývající se konstrukcí zařízení z hlediska Safety, nebo bezpečností práce.
+
+3. Na příkladech vysvětlete pojem Safety.
+
+> :key: **Keywords:** Safety = 
+
 
 ### 2. Security
 
-1.	Vymysl
+1. Vymysl
 
--->
+2. 
+
+3. Na příkladech vysvětlete pojem Security.
+
+> :key: **Keywords:** Security = 
+
+
 ### 3. Diagnostika řídící jednotky
 
 V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. Nezapomeňte popsat i jaké diagnostické prostředky k tomu potřebujete, případně jak je nastavíte.
@@ -70,6 +79,35 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
     > :bulb: **Tip:** Použijte softwarové ladící nástroje (debugger/krokování programu). Nejprve však rozhodněte, zda lze program ladit přímo na hadwaru, nebo v simulátoru. 
 
 > :key: **Keywords:** Simulátor = 
+>
 > :key: **Keywords:** Debugger = 
 
 6. Rozdělte se na dva týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
+
+
+
+<details>
+  <summary>Spoiler warning</summary>
+  
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+
+</details>
+
+
+<details>
+  <summary>Spoiler warning 2</summary>
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+</details>
+
+
+<details>
+  <summary>  > :key: **Keywords:** Simulátor</summary>
+  Význam slova.
+</details>
