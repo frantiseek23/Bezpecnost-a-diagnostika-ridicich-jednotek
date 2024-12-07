@@ -82,39 +82,27 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 >
 > :key: **Keywords:** Debugger = 
 
+<details>
+  
+  <summary> :key: Simulátor</summary>
+
+  Význam slova.
+
+</details>
+
+<details>
+  
+  <summary> :key: Debugger</summary>
+
+  Význam slova.
+
+</details>
+
+
+
+
+
 6. Rozdělte se na dva týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
 
 
 
-<details>
-  <summary>Spoiler warning</summary>
-  
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```javascript
-  console.log("I'm a code block!");
-  ```
-
-</details>
-
-
-
-
-
-<details>
-  
-  <summary> Simulátor</summary>
-
-  Význam slova.
-
-</details>
-
-
-
-<details>
-  
-  <summary> > :key: **Keywords:** Simulátor</summary>
-
-  Význam slova.
-
-</details>
