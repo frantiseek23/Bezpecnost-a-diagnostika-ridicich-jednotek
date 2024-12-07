@@ -81,15 +81,15 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 
 <details>
   <summary> :key: Simulátor</summary>
-  Význam slova.
+  Např. www.wokwi.com, simulator PLC v programovacím prostředí Mosaic, apod.
+  [Simulation software 1](https://en.wikipedia.org/wiki/Simulation_software)
+  <a href="https://en.wikipedia.org/wiki/Simulation_software">Simulation software 2</a>
 </details>
 
 
 <details>
-  
   <summary> :key: Debugger</summary>
   Význam slova.
-
 </details>
 
 6. Rozdělte se na dva týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
