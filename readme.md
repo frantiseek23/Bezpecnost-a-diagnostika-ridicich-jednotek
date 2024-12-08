@@ -38,23 +38,20 @@ Bezpečnost a diagnostika řídících jednotek
 
 3. Na příkladech vysvětlete pojem Safety.
 
-<details>
-  <summary> :key: Safety</summary>
-  Ve spojení s průmyslem lze zjednodušeně říci, že se jedná o bezpečnost před úrazem, či úmrtím.
+> :key: ** Safety **
+> Ve spojení s průmyslem lze zjednodušeně říci, že se jedná o bezpečnost před úrazem, či úmrtím.
   K zajištění se používají ochranné pomůcky (rukavice, brýle,...), specializované zařízení, komponenty, řídící jednotky,... (stop tlačítko, proudový chránič, safety PLC,...), ale také předpisy a provozní řády (např. školní řád a řád učeben), školení, apod.
-</details>
 
 
 ### 2. Security
 
-1. Vymysl
+1. U některé z úloh, kde byla řídící jednotka připojena k internetu, sepište možná rizika z hlediska IT security a ke každému riziku dohledejte možná ochranná opatření.
 
-2. 
+2. Zkuste vyhledat, jaká legislativa se zabývá IT security.
 
 3. Na příkladech vysvětlete pojem Security.
 
-> :key: Security
->
+> :key: ** Security **
 > Zjednodušeně lze říci, že se zabývá ochranou majetku pře krádeží, poškozením, kompromitací, apod. V případě fyzického majetku (tedy např. i serveru, kde jsou uložena důležitá data) se realizuje např. oplocením, uzamčením, kamerovými systémy, alarmy, apod. V případě softwaru a dat se používají firewaly, antivirové programy, omezení přístupu (např. heslem, změnou portu, apod.).
 
 
@@ -66,55 +63,63 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 1. Kontrolky (a případný displej) na řídící jednotce nesvítí.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Zkontrolujte napájení.
+    <details>
+        <summary> :bulb: Tip: </summary>
+        Zkontrolujte napájení. 
+    </details>
 
 2. Vše vypadá funkční, pouze podle popisu funkce zařízení, jedna kontrolka zjevně nesvítí.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Zkontrolujte přívodní vodiče.
+    <details>
+        <summary> :bulb: Tip: </summary> 
+        Zkontrolujte přívodní vodiče. 
+    </details>
 
 3. Kontrolky na řídící jednotce svítí (a případný displej ukazuje stav RUN), ale není žádná odezva na stisknutí ovládacích tlačítek.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Zkontrolujte zapojení a nastavení tlačítek. Často jsou tlačítka zapojena na společnou zen, tou je možné začít.
+    <details>
+        <summary> :bulb: Tip: </summary>
+        Zkontrolujte zapojení a nastavení tlačítek. Často jsou tlačítka zapojena na společnou zen, tou je možné začít. 
+    </details>
 
 4. Po stisknutí tlačítka se sepne jiná kontrolka.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Buď jsou prohozené v zapojení, nebo v programu.
+    <details>
+        <summary> :bulb: Tip: </summary> 
+        Buď jsou prohozené v zapojení, nebo v programu. 
+    </details>
 
 5. Hardware je zapojený správně, přesto program nepracuje podle podle zadání.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
-    > :bulb: **Tip:** Použijte softwarové ladící nástroje (debugger/krokování programu). Nejprve však rozhodněte, zda lze program ladit přímo na hadwaru, nebo v simulátoru. 
+    <details>
+        <summary> :bulb: Tip: </summary>
+        Použijte softwarové ladící nástroje (debugger/krokování programu). Nejprve však rozhodněte, zda lze program ladit přímo na hadwaru, nebo v simulátoru.  
+    </details>
 
 
-<details>
-  <summary> :key: Simulátor</summary>
-  Program, který napodobuje chování řídící jednotky, pro kterou je vyvíjen software.
-  Např. <a href="www.wokwi.com">Wokwi</a>, simulator PLC v programovacím prostředí Mosaic, apod.
-  Podrobněji např. na 
-  Simulation software. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 19 September 2024, at 09:30. Dostupné z: <a href="https://en.wikipedia.org/wiki/Simulation_software">https://en.wikipedia.org/wiki/Simulation_software</a>. [cit. 2024-12-07].
-  kapitoly Simulační software, Programovatelné logické automaty.
+> :key: Simulátor 
+> Program, který napodobuje chování řídící jednotky, pro kterou je vyvíjen software.
+> Např. <a href="www.wokwi.com">Wokwi</a>, simulator PLC v programovacím prostředí Mosaic, apod.
+> Podrobněji např. na 
+> Simulation software. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 19 September 2024, at 09:30. Dostupné z: <a href="https://en.wikipedia.org/wiki/Simulation_software">https://en.wikipedia.org/wiki/Simulation_software</a>. [cit. 2024-12-07].
+> kapitoly Simulační software, Programovatelné logické automaty.
 </details>
 
 
-<details>
-  <summary> :key: Debugger</summary>
-  Zjednodušeně lze říci, že se jedná se o ladící nástroj, sloužící pro vyhledávání chyb v logice programu. V případě řídících jednotek využívá buď simulátor, nebo samotný hardware (pokud je na to uzpůsoben) k odzkoušení programu. Mimo jiné umožňuje krokování, používání brakepointů, apod.
-  Podrobněji např. na 
-  Debugger. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 28. 4. 2022 v 21:27. Dostupné z: <a href="https://cs.wikipedia.org/wiki/Debugger">https://cs.wikipedia.org/wiki/Debugger</a>. [cit. 2024-12-07].
-</details>
+> :key: Debugger 
+> Zjednodušeně lze říci, že se jedná se o ladící nástroj, sloužící pro vyhledávání chyb v logice programu. V případě řídících jednotek využívá buď simulátor, nebo samotný hardware (pokud je na to uzpůsoben) k odzkoušení programu. Mimo jiné umožňuje krokování, používání brakepointů, apod.
+> Podrobněji např. na 
+> Debugger. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 28. 4. 2022 v 21:27. Dostupné z: <a href="https://cs.wikipedia.org/wiki/Debugger">https://cs.wikipedia.org/wiki/Debugger</a>. [cit. 2024-12-07].
 
 
-
-<details>
-  <summary> :key: Logické chyby</summary>
-  ...
-</details>
+> :key: Logické chyby 
 
 
-6. Rozdělte se na dva týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
+6. Rozdělte se na týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
 
 
 
