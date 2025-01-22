@@ -2,13 +2,14 @@
 [nic ]: #
 
 
-
 # Bezpečnost a diagnostika řídících jednotek
 
+$${\color{#FFA500}E14 \space \color{Gold}S25 \space \color{#4682B4}A10 }$$
+
 ## Cíl
--	Studenti rozliší pojmy Safety a Security
+-   Studenti rozliší pojmy Safety a Security
 -   Doplní a především propojí si dosavadní znalosti z této problematiky
--   A na příkladech vysvětlejí řešení některý z častých problémů
+-   A na příkladech vysvětlí řešení některý z častých problémů
 -   Dále popíší příklady diagnostických prostředků z oblasti HW
 -   A na konkrétní řídící jednotce popíší základní diagnostiku
 -   Vysvětlí, jak se provádí u této řídící jednotky základní diagnostika SW
@@ -43,7 +44,6 @@ Bezpečnost a diagnostika řídících jednotek
 > Ve spojení s průmyslem lze zjednodušeně říci, že se jedná o bezpečnost před úrazem, či úmrtím.
   K zajištění se používají ochranné pomůcky (rukavice, brýle,...), specializované zařízení, komponenty, řídící jednotky,... (stop tlačítko, proudový chránič, safety PLC,...), ale také předpisy a provozní řády (např. školní řád a řád učeben), školení, apod.
 
-
 ### 2. Security
 
 1. U některé z úloh, kde byla řídící jednotka připojena k internetu, sepište možná rizika z hlediska IT security a ke každému riziku dohledejte možná ochranná opatření.
@@ -54,8 +54,7 @@ Bezpečnost a diagnostika řídících jednotek
 
 > :key: **Security**
 >
-> Zjednodušeně lze říci, že se zabývá ochranou majetku pře krádeží, poškozením, kompromitací, apod. V případě fyzického majetku (tedy např. i serveru, kde jsou uložena důležitá data) se realizuje např. oplocením, uzamčením, kamerovými systémy, alarmy, apod. V případě softwaru a dat se používají firewaly, antivirové programy, omezení přístupu (např. heslem, změnou portu, apod.).
-
+> Zjednodušeně lze říci, že se zabývá ochranou majetku pře krádeží, poškozením, kompromitací, apod. V případě fyzického majetku (tedy např. i serveru, kde jsou uložena důležitá data) se realizuje např. oplocením, uzamčením, kamerovými systémy, alarmy, apod. V případě softwaru a dat se používají firewally, antivirové programy, omezení přístupu (např. heslem, změnou portu, apod.).
 
 
 ### 3. Diagnostika řídící jednotky
@@ -83,7 +82,7 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
     - Použité diagnostické prostředky:
     <details>
         <summary> :bulb: Tip: </summary>
-        Zkontrolujte zapojení a nastavení tlačítek. Často jsou tlačítka zapojena na společnou zen, tou je možné začít. 
+        Zkontrolujte zapojení a nastavení tlačítek. Často jsou tlačítka zapojena na společnou zem, tou je možné začít. 
     </details>
 
 4. Po stisknutí tlačítka se sepne jiná kontrolka.
@@ -94,14 +93,13 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
         Buď jsou prohozené v zapojení, nebo v programu. 
     </details>
 
-5. Hardware je zapojený správně, přesto program nepracuje podle podle zadání.
+5. Hardware je zapojený správně, přesto program nepracuje podle zadání.
     - Navrhovaný postup:
     - Použité diagnostické prostředky:
     <details>
         <summary> :bulb: Tip: </summary>
-        Použijte softwarové ladící nástroje (debugger/krokování programu). Nejprve však rozhodněte, zda lze program ladit přímo na hadwaru, nebo v simulátoru.  
+        Použijte softwarové ladící nástroje (debugger/krokování programu). Nejprve však rozhodněte, zda lze program ladit přímo na hardwaru, nebo v simulátoru.  
     </details>
-
 
 > :key: **Simulátor**
 >
@@ -112,19 +110,17 @@ V následujících úlohách navrhněte a ověřte postup, jak odhalit závadu. 
 > kapitoly Simulační software, Programovatelné logické automaty.
 </details>
 
-
 > :key: **Debugger**
 >
 > Zjednodušeně lze říci, že se jedná se o ladící nástroj, sloužící pro vyhledávání chyb v logice programu. V případě řídících jednotek využívá buď simulátor, nebo samotný hardware (pokud je na to uzpůsoben) k odzkoušení programu. Mimo jiné umožňuje krokování, používání brakepointů, apod.
 > Podrobněji např. na 
 > Debugger. Online. In: Wikipedia: the free encyclopedia. San Francisco (CA): Wikimedia Foundation, 2024, 28. 4. 2022 v 21:27. Dostupné z: <a href="https://cs.wikipedia.org/wiki/Debugger">https://cs.wikipedia.org/wiki/Debugger</a>. [cit. 2024-12-07].
 
-
 > :key: **Logické chyby**
 >
 
-
 6. Rozdělte se na týmy. Každý připravte zapojení a program, který odzkoušíte a popíšete jeho funkci. Poté udělejte několik závad a navrhněte postup, jak byste je detekovali a odstranili. Poté nechte druhý tým problémy vyřešit.
+
 
 
 
