@@ -20,11 +20,14 @@ $${\color{#FFA500}E14 \space \color{Gold}S25 \space \color{#4682B4}A10 }$$
 Bezpečnost a diagnostika řídících jednotek
 
 1. Bezpečnost (safety) řídících systémů
+   -  Ve spojení s průmyslem lze zjednodušeně říci, že se jedná o bezpečnost před úrazem, či úmrtím.
+  K zajištění se používají ochranné pomůcky (rukavice, brýle,...), specializované zařízení, komponenty, řídící jednotky,... (stop tlačítko, proudový chránič, safety PLC,...), ale také předpisy a provozní řády (např. školní řád a řád učeben), školení, apod.
    - Safety - ochrana před úrazem nebo úmrtí člověka.
    - Řeší pouze ochranu lidí.
-3. Zabezpečení (security) řídících systémů
-4. Příklady HW a SW diagnostických prostředků
-5. Ukázka základní diagnostiky vybraných řídících jednotek
+2. Zabezpečení (security) řídících systémů
+   -Zjednodušeně lze říci, že se zabývá ochranou majetku pře krádeží, poškozením, kompromitací, apod. V případě fyzického majetku (tedy např. i serveru, kde jsou uložena důležitá data) se realizuje např. oplocením, uzamčením, kamerovými systémy, alarmy, apod. V případě softwaru a dat se používají firewally, antivirové programy, omezení přístupu (např. heslem, změnou portu, apod.).
+3. Příklady HW a SW diagnostických prostředků
+4. Ukázka základní diagnostiky vybraných řídících jednotek
 
 ## Úlohy
 
