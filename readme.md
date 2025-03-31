@@ -20,7 +20,7 @@ $${\color{#FFA500}E14 \space \color{Gold}S25 \space \color{#4682B4}A10 }$$
 Bezpečnost a diagnostika řídících jednotek
 
 1. Bezpečnost (safety) řídících systémů
-   - Safety - ochrana před úrazem před úrazem nebo úmrtí člověka.
+   - Safety - ochrana před úrazem nebo úmrtí člověka.
    - Řeší pouze ochranu lidí.
 3. Zabezpečení (security) řídících systémů
 4. Příklady HW a SW diagnostických prostředků
